@@ -4,15 +4,45 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Artactive</title>
-    <!-- <link rel="preload" href="fonts/opensans.woff2" as="font" crossorigin="anonymous"> -->
-    <!-- <link rel="preload" href="fonts/opensansbold.woff2" as="font" crossorigin="anonymous"> -->
-    <!-- <link rel="preload" href="fonts/opensanslight.woff2" as="font" crossorigin="anonymous"> -->
+    <title>Pilates</title>
+    <link rel="preload" href="fonts/roboto-light.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/roboto-regular.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/roboto-medium.woff2" as="font" crossorigin="anonymous">
     <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body class="page-body">
-    <header></header>
-    <main></main>
+    <header class="page-header">
+      <div class="page-header__top">
+        <a class="page-header__logo"></a>
+        <button class="page-header__btn" aria-label="открыть меню"></button>
+        <a class="page-header__tel" href="tel:+79183650707">+7 918 365 07 07</a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li><a class="main-nav__item" href="#">О пилатесе</a></li>
+          <li><a class="main-nav__item" href="#">Расписание и стоимость</a></li>
+          <li><a class="main-nav__item" href="#">Как проходят занятия</a></li>
+          <li><a class="main-nav__item" href="#">Отзывы</a></li>
+          <li><a class="main-nav__item" href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="page-header__bottom">
+        <h1 class="page-header__title">Студия пилатеса</h1>
+        <p class="page-header__description">Твое здоровое тело через 10 занятий</p>
+        <a class="page-header__link" href="#">Смотреть расписание</a>
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <h2 class="about__title">&mdash; О пилатесе</h2>
+        <p class="about__description">Пилатес соединяет элементы растяжки
+            с элементами силовой тренировки</p>
+        <p class="about__description">Комплекс упражнений укрепляет мышцы пресса
+            и спины, улучшает гибкость мышц и связок, подвижность суставов и избавляет
+            от дискомфорта в позвоночнике</p>
+        <a class="about__link" href="#">Подробнее ></a>
+      </section>
+    </main>
     <footer></footer>
     <script src="js/script.js"></script>
     <script src="js/picturefill.min.js"></script>
